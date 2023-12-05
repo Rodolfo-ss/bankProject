@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: beige;
+  overflow: hidden;
+}
+
+.menu .bar {
+  display: block;
+  width: 45px;
+  height: 5px;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.menu {
+  display: none;
+}
+
+.logo {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#header {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0px auto;
+  align-items: center;
+  font-size: 25pt;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.nav a {
+  padding: 10px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.ativo {
+  display: block;
+}
+
+.nav a:hover {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.side {
+  background-image: url(./img/money_1904aaa.jpg);
+  background-size: cover;
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  margin: 33px auto;
+}
+
+.side .side-message input {
+  margin: 5px;
+}
+
+.side .side-message{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+.side .long {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 240px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 2s;
+}
+
+.side .long img {
+  width: 400px;
+  height: 300px;
+}
+
+.side .short {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 240px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.side .short img {
+  width: 400px;
+  height: 300px;
+}
+
+.side .short:hover {
+  transform: scale(1.11, 1.11);
+}
+
+.side .long:hover {
+  transform: scale(1.11, 1.11);
+}
+
+.side .short:hover {
+  transform: scale(1.11, 1.11);
+}
